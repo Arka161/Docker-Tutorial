@@ -1,4 +1,6 @@
 # Docker Tutorial for IFT 6758 Lab
+![image](https://user-images.githubusercontent.com/20723780/143995444-96c1dcc1-8124-4989-b427-43299eb4ca43.png)
+
 
 In this repository, we examine advtanges of virtualization, what Docker is and how we can deploy simple programs on Docker.
 
