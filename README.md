@@ -77,6 +77,12 @@ Standard definition:
 - Dictates the program installation, setup, packaging, instructions, port exposition, etc. 
 - We can run a container, list a container, version them, delete them, etc. 
 
+### Sample Docker Image (for getting started):
+
+```
+docker run -d -p 80:80 docker/getting-started
+```
+
 ### Tools: 
 
 - `Docker Compose`: It us used for maintaining and running multi-container Docker applications. We use YAML (mark-up) to dictate the format, dependencies and other nuances of a project. It can aid in building and scaling containers.
