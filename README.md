@@ -2,15 +2,15 @@
 ![image](https://user-images.githubusercontent.com/20723780/143995444-96c1dcc1-8124-4989-b427-43299eb4ca43.png)
 
 
-In this repository, we examine advtanges of virtualization, what Docker is and how we can deploy simple programs on Docker.
+In this repository, we examine the advtanges of virtualization, what Docker is and how we can deploy simple programs on Docker.
 
-Firstly, we will start by listing some advantages of virtualization. We can give discuss them as follows: 
+Firstly, we will start by listing some advantages of virtualization. We can discuss them as follows: 
 
 - Minimize hardware costs (Multiple virtual servers on one hardware unit).
 - Easily for HA (High Availability) And Disaster Recovery (DR). 
 - Easier to save money and save energy, could be potentially _greener_. 
 
-Problems with Virtualization: 
+*Problems with Virtualization:*
 
 - Hard to maintain each OS, installation, HyperVisor and host OS compatibility issues, and HyperVisor - container issues. 
 - Costly and might take IT/Programming effort.
@@ -24,7 +24,7 @@ Problems with Virtualization:
 
 ### Container definition: 
 
-- is a runnable instance of an image. 
+- is a runnable instance (or sandbox) of an image. 
 - can be run on local machines, virtual machines or deployed to the cloud.
 - is portable (can be run on any OS).
 - Containers are isolated from each other and run their own software, binaries, and configurations.
@@ -52,6 +52,13 @@ Problems with Virtualization:
 
 ### Docker: 
 
+Standard definition:
+
+"An open-source project that automates the deployment of software applications inside containers by providing an additional layer of abstraction and automation of OS-level virtualization on Linux."
+
+![image](https://user-images.githubusercontent.com/20723780/144093754-50ee9e40-6491-4182-a61d-a210736345e9.png)
+
+
 - Does exactly what we need, and it assists in efficient containerization. 
 - Free and Open Source! (now under Moby)
 - Helps in packaing source code, libraries, dependencies, volumes, routes, etc for production.
@@ -75,6 +82,12 @@ Problems with Virtualization:
 - `Docker Compose`: It us used for maintaining and running multi-container Docker applications. We use YAML (mark-up) to dictate the format, dependencies and other nuances of a project. It can aid in building and scaling containers.
 - `Docker Volume`: We can store and manage separate volumes of code, that avoid deletion when the container is stopped. 
 
+### Glossary:
+
+- `Docker Daemon`: The background service running on the host that manages building, running and distributing Docker containers. The daemon is the process that runs in the operating system which clients talk to.
+- `Docker Client`: The command line tool that allows the user to interact with the daemon. More generally, there can be other forms of clients too - such as Kitematic which provide a GUI to the users.
+- `Docker Hub`: A registry of Docker images. You can think of the registry as a directory of all available Docker images. If required, one can host their own Docker registries and can use them for pulling images.
+
 ## References:
 
 1. https://runnable.com/docker/python/docker-compose-with-flask-apps
@@ -83,3 +96,4 @@ Problems with Virtualization:
 4. https://www.cse.wustl.edu/~jain/cse570-18/ftp/m_21cdk.pdf
 5. https://en.wikipedia.org/wiki/Docker_(software)
 6. https://docs.docker.com/compose/
+7. https://docker-curriculum.com/
