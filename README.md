@@ -73,3 +73,10 @@ Problems with Virtualization:
 - `Docker Compose`: It us used for maintaining and running multi-container Docker applications. We use YAML (mark-up) to dictate the format, dependencies and other nuances of a project. It can aid in building and scaling containers.
 - `Docker Volume`: We can store and manage separate volumes of code, that avoid deletion when the container is stopped. 
 
+## References:
+
+1. https://runnable.com/docker/python/docker-compose-with-flask-apps
+2. https://github.com/docker/awesome-compose
+3. https://docs.docker.com/language/python/build-images/
+4. https://www.cse.wustl.edu/~jain/cse570-18/ftp/m_21cdk.pdf
+5. https://en.wikipedia.org/wiki/Docker_(software)
