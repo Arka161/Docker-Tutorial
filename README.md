@@ -100,7 +100,7 @@ docker run -d -p 80:80 docker/getting-started
 - `Tutorial 1`: Demonstrates a basic Docker program. 
 - `Tutorial 2`: Demonstrates simple Redis counter example with `compose`. 
 - `Tutorial 3`: Docker + NGINX Reverse Proxy + Vanilla MongoDB/NoSQL.
-- `Tutorial 4`: Same as Tutorial 1, but updated WSGI (Web Server Gateway Interface).
+- `Tutorial 4`: Same as Tutorial 1, but updated WSGI (Web Server Gateway Interface), instead of a default Flask development WSGI.
 
 ## References:
 
