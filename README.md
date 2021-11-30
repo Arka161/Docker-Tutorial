@@ -87,6 +87,14 @@ Standard definition:
 - `Docker Daemon`: The background service running on the host that manages building, running and distributing Docker containers. The daemon is the process that runs in the operating system which clients talk to.
 - `Docker Client`: The command line tool that allows the user to interact with the daemon. More generally, there can be other forms of clients too - such as Kitematic which provide a GUI to the users.
 - `Docker Hub`: A registry of Docker images. You can think of the registry as a directory of all available Docker images. If required, one can host their own Docker registries and can use them for pulling images.
+- `Docker Container Image`: When running a container, it uses an isolated filesystem. This custom filesystem is provided by a container image. Since the image contains the container's filesystem, it must contain everything needed to run an application - all dependencies, configuration, scripts, binaries, and so on. The image also contains other configuration for the container, such as environment variables, a default command to run, and other metadata.
+
+### Folder instructions:
+
+- `Tutorial 1`: Demonstrates a basic Docker program. 
+- `Tutorial 2`: Demonstrates simple Redis counter example with `compose`. 
+- `Tutorial 3`: Docker + NGINX Reverse Proxy + Vanilla MongoDB/NoSQL.
+- `Tutorial 4`: Same as Tutorial 1, but updated WSGI (Web Server Gateway Interface).
 
 ## References:
 
